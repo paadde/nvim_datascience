@@ -17,6 +17,9 @@ require('lspconfig').pyright.setup({})
 -- setup postgresql lsp
 require('lspconfig').postgres_lsp.setup({})
 
+-- setup markdown lsp
+require('lspconfig').marksman.setup({})
+
 -- setup additional keybindings using nvim-cmp
 
 local cmp = require('cmp')

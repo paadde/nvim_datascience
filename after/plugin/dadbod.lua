@@ -14,7 +14,7 @@ vim.g.db_ui_show_help = 1
 vim.g.db_ui_winwidth = 40
 
 -- Configure Save Location
-vim.g.db_ui_save_location = '~/queries/db_ui_queries'
+vim.g.db_ui_save_location = '~/Repositories/SQL_queries_dadbod'
 
 -- Show Drawer Icons
 vim.g.db_ui_show_database_icon = 1
@@ -38,10 +38,10 @@ vim.g.db_ui_icons = {
     tables = '▸ ',
     table = '▸ ',
   },
-  saved_query = '',
+  saved_query = '',
   new_query = '󰎔',
   tables = '',
-  buffers = '﬘',
+  buffers = '',
   add_connection = '󰌘',
   connection_ok = '✓',
   connection_error = '✕',

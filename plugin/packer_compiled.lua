@@ -174,11 +174,6 @@ _G.packer_plugins = {
     path = "/home/derykpayas/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
   },
-  ["vim-commentary"] = {
-    loaded = true,
-    path = "/home/derykpayas/.local/share/nvim/site/pack/packer/start/vim-commentary",
-    url = "https://github.com/tpope/vim-commentary"
-  },
   ["vim-dadbod"] = {
     loaded = true,
     path = "/home/derykpayas/.local/share/nvim/site/pack/packer/start/vim-dadbod",

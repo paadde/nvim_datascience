@@ -30,7 +30,6 @@ return require('packer').startup(function(use)
   use('tpope/vim-dadbod') -- enable connection with various databases
   use('kristijanhusak/vim-dadbod-ui') -- enable Dadbod DB UI
   use('kristijanhusak/vim-dadbod-completion') -- enable dadbod completion
-  use('tpope/vim-commentary') -- enable comment out of codes
 
   -- install lualine
   use {

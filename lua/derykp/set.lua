@@ -32,6 +32,5 @@ vim.opt.colorcolumn = "80"
 
 vim.opt.encoding = "utf-8"
 
-vim.cmd('filetype plugin indent on')
 
 
