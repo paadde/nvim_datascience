@@ -30,6 +30,9 @@ return require('packer').startup(function(use)
   use('tpope/vim-dadbod') -- enable connection with various databases
   use('kristijanhusak/vim-dadbod-ui') -- enable Dadbod DB UI
   use('kristijanhusak/vim-dadbod-completion') -- enable dadbod completion
+  use('Shatur/neovim-ayu') -- install ayu theme
+  use {'ellisonleao/gruvbox.nvim'} -- install gruvbox theme
+
 
   -- install lualine
   use {
@@ -50,6 +53,9 @@ return require('packer').startup(function(use)
           {'neovim/nvim-lspconfig'},
           -- Autocompletion
           {'hrsh7th/nvim-cmp'},
+          {'hrsh7th/cmp-buffer'}, --- added
+          {'hrsh7th/cmp-path'}, --- added
+          {'hrsh7th/cmp-cmdline'}, --- added
           {'hrsh7th/cmp-nvim-lsp'},
           {'L3MON4D3/LuaSnip'},
       }

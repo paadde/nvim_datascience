@@ -11,8 +11,18 @@ end)
 -- setup r language server
 require('lspconfig').r_language_server.setup({})
 
--- setup pyright lsp
-require('lspconfig').pyright.setup({})
+-- setup pylsp server lsp
+require'lspconfig'.pylsp.setup({
+settings = {
+        pylsp = {
+            plugins = {
+                jedi_completion = {
+                    include_params = true,
+                },
+            },
+        },
+    },
+})
 
 -- setup postgresql lsp
 require('lspconfig').postgres_lsp.setup({})
@@ -44,4 +54,5 @@ cmp.setup({
 })
 
 
-require('cmp').setup.buffer({ sources = {{ name = 'vim-dadbod-completion' }} })
+--- require('cmp').setup.buffer({ sources = {{ name = 'vim-dadbod-completion' }} })
+
